@@ -1,0 +1,12 @@
+name: Shush
+description: Don't talk plugin
+version: '${project.version}'
+main: dipper.shush.Shush
+api-version: 1.19
+authors: [DipperCypher]
+commands:
+  broadcast:
+    description: Broadcast a message to all players
+    usage: /<command> <message>
+    permission: shush.broadcast
+    permission-message: You do not have permission to use this command.
